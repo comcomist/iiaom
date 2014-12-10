@@ -6,6 +6,15 @@ Cryptoidentity for everyone. [the idea](http://namzezam.wikidot.com/blog:12).
 
 You are not allowed to use, produce from or design from this or its part, anything contained with the aim to kill,to cause harm to or to monitor people and any permission beside that is given only under the [AGPL License](http://www.gnu.org/licenses/agpl-3.0.html)!
 
+
+## Install
+
+npm install -g git://github.com/comcomist/iiaom.git
+
+## How-to
+
+http://iiaom.wikidot.com/
+
 ## todo:
  this protocol must be performed only in a mutual verifying,
  where H (human) is also V(verifier) and vs,    for making it  more expensive for the mass attackers!
@@ -33,11 +42,3 @@ put in encrypted dir/db or table having also counter (of normality) +optionally 
              more related to other probebly more attracted to the other !?
 
 Also see http://namzezam.wikidot.com/blog:12#last-minit-note
-
-## Install
-
-npm install -g git://github.com/yetzt/iiaom.git
-
-## How-to
-
-http://iiaom.wikidot.com/
