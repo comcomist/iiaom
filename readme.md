@@ -1,6 +1,6 @@
 # iiaom
 
-Cryptoidentity for everyone. [the idea](http://namzezam.wikidot.com/blog:12).
+Crypto Identity being a hash of an image together with its symmetrically encrypted file, which is stored in Darknet or common server and in the human's device. For everyone's use as Inner Identifier And Outer Mask for authenticating human when accountability and/or equality is required, such as in any democratic applications and/or in bypassing monitoring via government documents. [more](http://namzezam.wikidot.com/blog:12).
 
 ## License - Humanitarian AGPL License: 
 
