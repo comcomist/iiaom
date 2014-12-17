@@ -1,6 +1,6 @@
-# iiaom - Inner Identifier And Outer Mask 
+# iiaom - Inner Identifier And Outer Mask, Crypto Identity for everyone.
 
-Crypto Identity: It is a hash of an image together with its symmetrically encrypted file being stored in darknet or common server and also in the human's device. It is for everyone's use as Inner Identifier And Outer Mask for authenticating human when accountability and/or equality is required, in such cases as democratic applications while bypassing monitoring by law or crime syndicate via government documents. [more..](http://namzezam.wikidot.com/blog:12)
+It is a hash of an image together with its symmetrically encrypted file being stored in  in the human's device and in darknet or common server. Is used for authenticating human when accountability and/or equality is required. Eg. in democratic applications while bypassing monitoring via government documents by any kind of syndicate. [more..](http://namzezam.wikidot.com/blog:12)
 
 ## License - Humanitarian AGPL License: 
 
