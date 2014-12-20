@@ -11,10 +11,10 @@ Use case: Providing reliable peerid in peerjs and more generally helping in webr
 *    the parties are: "a" and "b" communicating peers, "d" - peer or nodeServer in duty and "n" - nodeServer; 
 *    the date passed between "d" is negotiationData and messagesData per each reading peer, where 
     *     negotiationData has, hash(iiaom), the current-ip/last-time-seen and
-         messagesData has a limited size data of unread msg being encrypted with the public key of the absent reading peer;
-    "n" having ip and only optionally domain name, replies only on successful request with ip("d"); and
-    "d" having negotiationData and messagesData used when "a" (having iiaom) asks to connect to "b" (defined by other iiaom), so that
-        1st "d" try to find after hash the (iiaom("a")) and the(iiaom("b")) and then on success attach the ip("a") negotiationData and  send to "a" the ip("b) or when "b" is not enviable receive from "a" and add the data encrypted with pub of "b".
+    *     messagesData has a limited size data of unread msg being encrypted with the public key of the absent reading peer;
+*   "n" having ip and only optionally domain name, replies only on successful request with ip("d"); and
+*   "d" having negotiationData and messagesData used when "a" (having iiaom) asks to connect to "b" (defined by other iiaom), so that
+   *  1st "d" try to find after hash the (iiaom("a")) and the(iiaom("b")) and then on success attach the ip("a") negotiationData and  send to "a" the ip("b) or when "b" is not enviable receive from "a" and add the data encrypted with pub of "b".
 
 It is now developed in a [dComcom](http://yes-again-we-can.wikidot.com/s-contract:groups-collaborating-comcomized-platform-gccp/edit/true/title/Groups%20Collaborating%20Comcomized%20Platform%20%28GCCP%29/parentPage/start%3As-contract)  being [Groups Collaborating Comcomized Platform (GCCP)](http://namzezam.wikidot.com/blog:24), and you can  [contact](http://namzezam.wikidot.com/main:contact) to join.
 
@@ -29,27 +29,19 @@ http://iiaom.wikidot.com/
 ## todo:
  this protocol must be performed only in a mutual verifying,
  where H (human) is also V(verifier) and vs,    for making it  more expensive for the mass attackers!
- 
-1 H: in create <file> to make the hash of both the encrypted and the source and if it was not "safe" still to ask to delete to source!!
-
-2.V: another option - get(encrypted, pubkey )
-    sending to H encrypted asymmetrically the symmetrically encrypted file
-
-2.H: another option - give(pubkey, encrypted file)
-    sending to V encrypted asymmetrically the file
-
-3. V: in verify
-  1. hash both the encrypted and the non encrypted to match the iiaom
-  2. try match by other means the human with the pic
-  3. sign the iiaom on matching
-
-4. after signing the iiaom (being hash both encrypted and source) should be hashed again and
-put in encrypted dir/db or table having also counter (of normality) +optionally with date and notes.
-    1, this would  allow measurement of
-        1, integer: any time publicly, trust of the human=  number of unique trustees
-        2, integer: any time internally, counter normality with trustee= the number of being singed by trustee
-        3. percentage:  when the normality is high, between 2 how match they are related per each=
-            of those sining me how much singed you
-             more related to other probebly more attracted to the other !?
+* 1 H: in create <file> to make the hash of both the encrypted and the source and if it was not "safe" still to ask to delete to source!!
+* 2.V: another option - get(encrypted, pubkey )
+  *  sending to H encrypted asymmetrically the symmetrically encrypted file
+* 2.H: another option - give(pubkey, encrypted file)
+   * sending to V encrypted asymmetrically the file
+* 3. V: in verify
+ * 1. hash both the encrypted and the non encrypted to match the iiaom
+ * 2. try match by other means the human with the pic
+ * 3. sign the iiaom on matching
+* 4. after signing the iiaom (being hash both encrypted and source) should be hashed again and put in encrypted dir/db or table having also counter (of normality) +optionally with date and notes.
+* 5. this would  allow measurement of
+ *        1, integer: any time publicly, trust of the human=  number of unique trustees
+ *        2, integer: any time internally, counter normality with trustee= the number of being singed by trustee
+ *        3. percentage:  when the normality is high, between 2 how match they are related per each of those sining me how much singed you more related to other probebly more attracted to the other !?
 
 Also see http://namzezam.wikidot.com/blog:12#last-minit-note
