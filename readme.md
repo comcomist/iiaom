@@ -10,11 +10,11 @@ Use case: Providing reliable peerid in peerjs and more generally helping in webr
     all peers are user having iioam and nodes are cheap serves; 
     the parties are: "a" and "b" communicating peers, "d" - peer or nodeServer in duty and "n" - nodeServer; 
     the date passed between "d" is negotiationData and messagesData per each reading peer, where 
-     negotiationData has, hash(iiaom), the current-ip/last-time-seen and
-     messagesData has a limited size data of unread msg being encrypted with the public key of the absent reading peer;
-    "n" having ip and only optionally domain name, replies only on successful request with ip("d"); and 
+         negotiationData has, hash(iiaom), the current-ip/last-time-seen and
+         messagesData has a limited size data of unread msg being encrypted with the public key of the absent reading peer;
+    "n" having ip and only optionally domain name, replies only on successful request with ip("d"); and
     "d" having negotiationData and messagesData used when "a" (having iiaom) asks to connect to "b" (defined by other iiaom), so that
-      1st "d" try to find after hash the (iiaom("a")) and the(iiaom("b")) and then on success attach the ip("a") negotiationData and  send to "a" the ip("b) or when "b" is not enviable receive from "a" and add the data encrypted with pub of "b".
+        1st "d" try to find after hash the (iiaom("a")) and the(iiaom("b")) and then on success attach the ip("a") negotiationData and  send to "a" the ip("b) or when "b" is not enviable receive from "a" and add the data encrypted with pub of "b".
 
 It is now developed in a [dComcom](http://yes-again-we-can.wikidot.com/s-contract:groups-collaborating-comcomized-platform-gccp/edit/true/title/Groups%20Collaborating%20Comcomized%20Platform%20%28GCCP%29/parentPage/start%3As-contract)  being [Groups Collaborating Comcomized Platform (GCCP)](http://namzezam.wikidot.com/blog:24), and you can  [contact](http://namzezam.wikidot.com/main:contact) to join.
 
