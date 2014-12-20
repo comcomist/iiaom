@@ -4,7 +4,7 @@
 **Install**: npm install -g git://github.com/comcomist/iiaom.git
 * How-to: http://iiaom.wikidot.com/
 
-**It is now developed in** a [dComcom](http://yes-again-we-can.wikidot.com/s-contract:groups-collaborating-comcomized-platform-gccp/edit/true/title/Groups%20Collaborating%20Comcomized%20Platform%20%28GCCP%29/parentPage/start%3As-contract)  being [Groups Collaborating Comcomized Platform (GCCP)](http://namzezam.wikidot.com/blog:24), and you can  [contact](http://namzezam.wikidot.com/main:contact) to join.
+**Development in** a [dComcom](http://yes-again-we-can.wikidot.com/s-contract:groups-collaborating-comcomized-platform-gccp/edit/true/title/Groups%20Collaborating%20Comcomized%20Platform%20%28GCCP%29/parentPage/start%3As-contract)  being [Groups Collaborating Comcomized Platform (GCCP)](http://namzezam.wikidot.com/blog:24), and you can  [contact](http://namzezam.wikidot.com/main:contact) to join.
 
 It is a hash (image + its symmetrically encrypted file), where only the encrypted file is stored in the human's device and in darknet or common server, as the hash is distributed and, if the human is identified, the hash is signed in WOT for gaining its reputation. It is used for authenticating human when accountability and/or equality is required. Eg. in communication  and in democratic applications, while bypassing monitoring done by any kind of syndicate via government documents. [more..](http://namzezam.wikidot.com/blog:12)
 
