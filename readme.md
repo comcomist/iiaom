@@ -7,10 +7,10 @@ You are not allowed to use, produce from or design from this or its part, anythi
 It is a hash of an image + its symmetrically encrypted file, where only the encrypted file is stored in the human's device and in darknet or common server, as the hash is distributed and, if the human is identified, the hash is signed in WOT for gaining its reputation. It is used for authenticating human when accountability and/or equality is required. Eg. in communication  and in democratic applications, while bypassing monitoring done by any kind of syndicate via government documents. [more..](http://namzezam.wikidot.com/blog:12)
 
 Use case: Providing reliable peerid in peerjs and more generally helping in webrtc app (such as webtorrent) for more trustable p2p human identification, to bypass, or reduce, the need of a server (such as peerjs-server). eg. for p2p by iiaom on xmpp or webrtc with tor or other means, consists of: 
-    all peers are user having iioam and nodes are cheap serves; 
-    the parties are: "a" and "b" communicating peers, "d" - peer or nodeServer in duty and "n" - nodeServer; 
-    the date passed between "d" is negotiationData and messagesData per each reading peer, where 
-         negotiationData has, hash(iiaom), the current-ip/last-time-seen and
+*    all peers are user having iioam and nodes are cheap serves; 
+*    the parties are: "a" and "b" communicating peers, "d" - peer or nodeServer in duty and "n" - nodeServer; 
+*    the date passed between "d" is negotiationData and messagesData per each reading peer, where 
+    *     negotiationData has, hash(iiaom), the current-ip/last-time-seen and
          messagesData has a limited size data of unread msg being encrypted with the public key of the absent reading peer;
     "n" having ip and only optionally domain name, replies only on successful request with ip("d"); and
     "d" having negotiationData and messagesData used when "a" (having iiaom) asks to connect to "b" (defined by other iiaom), so that
